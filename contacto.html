@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--inicio de contenedor-->
+    <div class="contenedor-padre">
+
+
+        <!--navegador-->
+
+        <header class="cd-auto-hide-header">
+            <div class="logo"><a href="index.html"><img src="img/logo.svg" alt="Logo"></a></div>
+        
+            <nav class="cd-primary-nav">
+                <a href="#cd-navigation" class="nav-trigger">
+                    <span>
+                        <em aria-hidden="true"></em>
+                        Menu
+                    </span>
+                </a> <!-- .nav-trigger -->
+        
+                <ul id="cd-navigation">
+                    <li><a href="index.html">Sobre mi</a></li>
+                    <li><a href="trabajos.html">Mis trabajos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav> <!-- .cd-primary-nav -->
+        </header> <!-- .cd-auto-hide-header -->
+
+
+        <!--descripcion-->
+        <div class="contenedor-descripcion">
+
+            <div class="titulo-contact">
+                <h1>
+                    Contacto
+                </h1>
+            </div>
+
+            <div class="datos-contacto">
+
+                <div class="tel-email">
+
+                    <p>
+                        <strong>Telefono:</strong> 3193056127
+                        
+                    </p>
+
+                    <p>
+                        <strong>Correo:</strong> danielsilvaocm2797@gmail.com
+                    </p>
+                </div>
+
+                <div class="campos">
+                    <div class="campo">
+                        <p>Nombre</p>
+                    </div>
+
+                    <div class="campo">
+                        <p>Correo</p>
+                    </div>
+
+                    <div class="campo">
+                     <p>Mensaje</p>
+                    </div>
+
+                </div>
+
+                <div class="enviar">
+                    <a href="enviar">Enviar</a>
+                   </div>
+                
+            </div>
+            
+        </div>
+            <!--cierre de descripcion-->
+
+            <!--footer-->
+            <div class="footer">
+
+                <div class="titulo-footer">
+                    <h1>Sigueme</h1>
+                </div>
+                <ul>
+                    <a href="#"><li><i class="fab fa-whatsapp"></i></li></a>
+                    <a href="#"><li><i class="far fa-envelope"></i></i></li></a>
+                    <a href="#"><li><i class="fab fa-instagram"></i></i></li></a>
+                </ul>
+             </div>
+
+        </div>
+    </div>
+
+    <!--javascript-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+    <!-- .cd-main-content -->
+	
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+    </script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+    
+</body>
+
+<!--iconos-->
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+
+
+</html>
